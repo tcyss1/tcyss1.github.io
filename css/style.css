@@ -506,7 +506,7 @@ display:none;
   html .mv {
     width: 100%;
     height: 476px;
-    background-image: url("/images/pc/pc_hero_R5.png");
+    background-image: url("../images/pc/pc_hero_R5.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 1440px auto;
@@ -642,7 +642,7 @@ display:none;
     top: 22px;
     width: 6px;
     height: 8px;
-    background-image: url("/images/pc/list_icon.svg");
+    background-image: url("../images/pc/list_icon.svg");
     background-repeat: no-repeat;
     background-size: 6px 8px;
     background-position: center center;
@@ -676,7 +676,7 @@ display:none;
   html #about .fig4 {
     width: 952px;
     height: 644px;
-    background-image: url("/images/pc/about_fig4.png");
+    background-image: url("../images/pc/about_fig4.png");
     background-repeat: no-repeat;
     background-position: center 175px;
     background-size: 294px auto;
@@ -967,7 +967,7 @@ display:none;
     .btn_area
     a.btn_movie {
     padding-left: 35rem;
-    background-image: url("/images/icon_movie.svg");
+    background-image: url("../images/icon_movie.svg");
     background-size: 28rem 28rem;
     background-position: left center;
   }
@@ -981,7 +981,7 @@ display:none;
     .btn_area
     a.btn_documents {
     padding-left: 35rem;
-    background-image: url("/images/icon_documents.svg");
+    background-image: url("../images/icon_documents.svg");
     background-size: 19rem 20rem;
     background-position: 8rem center;
   }
@@ -995,7 +995,7 @@ display:none;
     .btn_area
     a.btn_slide {
       padding-left: 35rem;
-      background-image: url("/images/icon_slide.svg");
+      background-image: url("../images/icon_slide.svg");
       background-size: 19rem 20rem;
       background-position: 8rem center;
     }
@@ -1320,7 +1320,7 @@ display:none;
     font-size: 17rem;
     text-align: left;
     color: #0a2163;
-    background-image: url("/images/pc/icon_tel.svg");
+    background-image: url("../images/pc/icon_tel.svg");
     background-size: 21px 21px;
     background-position: 6px center;
     background-repeat: no-repeat;
@@ -1488,7 +1488,7 @@ display:none;
   }
   html footer .row1 .text3{
     padding-left: 20px;
-    background-image: url("/images/pc/icon_tokyo.svg");
+    background-image: url("../images/pc/icon_tokyo.svg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 16px 16px;
@@ -1633,7 +1633,7 @@ display:none;
     right: 0;
     top: -56rem;
     background-repeat: no-repeat;
-    background-image: url("/images/close.svg");
+    background-image: url("../images/close.svg");
     background-size: 42rem 42rem;
     background-position: center center;
     z-index: 24;
@@ -1686,7 +1686,7 @@ display:none;
   #modal .modal_contents dl dd a {
     display: block;
     padding-left: 13rem;
-    background-image: url("/images/icon_link.svg");
+    background-image: url("../images/icon_link.svg");
     background-repeat: no-repeat;
     background-size: 6rem 8rem;
     background-position: left center;
@@ -3025,7 +3025,7 @@ display:none;
   }
   html footer .row1 .text3 {
     padding-left: 18rem;
-    background-image: url("/images/pc/icon_tokyo.svg");
+    background-image: url("../images/pc/icon_tokyo.svg");
     background-repeat: no-repeat;
     background-size: 14rem 14rem;
   }

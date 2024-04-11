@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <title>コラム</title>
+    <meta
+      name="Description"
+      content="組織として策定すべき対策基準及び情報セキュリティの三大要素【 対策基準レベル① 】"
+    />
+    <meta name="og:type" content="article" />
+    <meta
+      name="og:url"
+      content="https://security-keizoku.metro.tokyo.lg.jp/seminar03/column.html"
+    />
+    <meta name="og:title" content="コラム" />
+    <meta
+      name="og:description"
+      content="組織として策定すべき対策基準及び情報セキュリティの三大要素【 対策基準レベル① 】"
+    />
+    <meta name="twitter:title" content="コラム" />
+
+    <!--#include virtual="../../include/head.html"-->
+
+  <link rel="stylesheet" href="../../css/style.css">
+
+    <link rel="stylesheet" href="../../css/seminar.css" />
+  </head>
+
+  <body>
+    <!--#include virtual="../../include/tag2.html"-->
+    
+
+    <main class="seminar_con">
+      <section class="content">
+        <div class="inner_wrap">
+          <div class="con_area">
+            <h4 class="title_none">コラム</h4>
+
+            <h5 class="uline">
+              情報セキュリティの<a class="yogo" id="cia">CIA</a>＋4要素
+            </h5>
+
+            <p class="mb28">
+              JIS Q 27000:2019で、情報セキュリティは「<a
+                class="yogo"
+                id="kimitsusei"
+                >機密性（Confidentiality）</a
+              >」、「<a class="yogo" id="kanzensei">完全性（Integrity</a
+              >）」及び「<a class="yogo" id="kayousei">可用性（Availability）</a
+              >」を維持することと定義されています。これら３つの要素（CIA）をバランスよく維持することは、セキュリティを担保する上では欠かせません。また、さらに以下の4つの要素を追加して、情報セキュリティの7要素とする場合もあります。より高度な<a
+                class="yogo"
+                id="isms"
+                >ISMS</a
+              >の構築につながる要素のため、ここで紹介します。
+            </p>
+
+            <ul class="mb28 mb42_sp">
+              <li class="li mb14">
+                <span></span>
+                <a class="yogo" id="shinseisei">真正性</a>(Authenticity)<br />
+                情報にアクセスする人や端末が「本当に許可されているかどうか」を確実にすることを指します。<a
+                  class="yogo"
+                  id="tayousoNinshou"
+                  >多要素認証</a
+                >やデジタル署名など、認証方法を強化することが対策として考えられます。
+              </li>
+
+              <li class="li mb14">
+                <span></span>
+                <a class="yogo" id="shinraisei">信頼性</a>(Reliability)<br />
+                データやシステムを利用する際、意図した動作と結果が得られることを担保することを指します。不具合がないようにシステム構築を行うことや、ヒューマンエラーが起きないようなルール整備などが対策として考えられます。
+              </li>
+
+              <li class="li mb14">
+                <span></span>
+                <a class="yogo" id="sekininTsuisekisei">責任追跡性</a
+                >(Accountability)<br />
+                情報へのアクセスが、誰によってどのような手順で行われたのかを後から証明できるようにしておくことを指します。ログの取得や、デジタル署名などが対策として考えられます。
+              </li>
+
+              <li class="li">
+                <span></span>
+                <a class="yogo" id="hininBoushisei">否認防止性</a
+                >(Non-repudiation)<br />
+                問題発生後に、その原因となった人物から否定されないよう、後から証明できるようにしておくことを指します。先に説明した責任追跡性を担保することが対策につながります。
+              </li>
+            </ul>
+
+            <p>
+              CIAの3要素だけでなく、上記の4要素も加えることで、より抜け漏れがないセキュリティ対策が期待できます。
+            </p>
+          </div>
+          <div class="page_link_area">
+            <div class="page_link">
+              <a href="page10-1-3.html" class="prev">10-1-3. 脆弱性の識別</a>
+              <a href="index.html" class="next">目次</a>
+            </div>
+            <div class="top_link">
+              <a href="index.html" class="top">目次にもどる</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    
+
+    <script type="text/javascript" src="../../js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../../js/index.js"></script>
+  </body>
+</html>

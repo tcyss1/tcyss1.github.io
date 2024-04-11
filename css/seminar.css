@@ -104,6 +104,11 @@ body main.seminar_con section.content div.con_area p.big_text {
 }
 body main.seminar_con section.content div.con_area p.small_text {
   font-size: 15rem;
+  line-height: 21rem;
+}
+body main.seminar_con section.content div.con_area p.small_text.grey {
+  color: #333;
+  opacity: 0.6;
 }
 body main.seminar_con section.content div.con_area p.center {
   text-align: center;
@@ -471,6 +476,10 @@ body main.seminar_con section.content div.page_link_area {
   border-top: 2px solid #00CBE2;
   box-sizing: border-box;
 }
+body main.seminar_con section.content div.page_link_area.noborder {
+  border: none;
+  margin-top: 28px;
+}
 body main.seminar_con section.content div.page_link_area div.page_link a {
   font-weight: 600;
   color: #00697E;
@@ -617,6 +626,13 @@ body main.seminar_con section.content div.top_link_area a {
   body main.seminar_con section.title .purpose ul {
     margin-top: 15px;
   }
+  body main.seminar_con section.title.betten_title h2 {
+    text-align: left;
+    margin: 87px auto 53px 42px;
+  }
+  body main.seminar_con section.title.betten_title .purpose {
+    margin-top: auto;
+  }
   body main.seminar_con section.sec_ttl {
     width: 952px;
     height: 140rem;
@@ -642,6 +658,9 @@ body main.seminar_con section.content div.top_link_area a {
   body main.seminar_con section.content div.chapter a, body main.seminar_con section.content div.chapter p {
     font-size: 11rem;
     line-height: 11rem;
+  }
+  body main.seminar_con section.content div.con_area.betten {
+    padding-bottom: 112px;
   }
   body main.seminar_con section.content div.con_area h4 {
     margin: 56px auto;
@@ -3028,6 +3047,48 @@ body main.seminar_con section.content div.top_link_area a {
   body main.seminar_con section.content div.con_area img.img_1931_3 {
     width: 952px;
   }
+  body main.seminar_con section.content div.con_area img.img_b4_1 {
+    width: 770px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_2 {
+    width: 688px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_3 {
+    width: 713px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_4 {
+    width: 840px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_5 {
+    width: 840px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_6 {
+    width: 840px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_7 {
+    width: 756px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_8 {
+    width: 840px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_9 {
+    width: 756px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_10 {
+    width: 756px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_11 {
+    width: 756px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_12 {
+    width: 756px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_13 {
+    width: 756px;
+  }
+  body main.seminar_con section.content div.con_area img.img_b4_14 {
+    width: 843px;
+  }
   body main.seminar_con section.content div.con_area img.center {
     margin-right: auto;
     margin-left: auto;
@@ -3044,6 +3105,9 @@ body main.seminar_con section.content div.top_link_area a {
   }
   body main.seminar_con section.content div.con_area img.mb56 {
     margin-bottom: 56px;
+  }
+  body main.seminar_con section.content div.con_area img.mb70 {
+    margin-bottom: 70px;
   }
   body main.seminar_con section.content div.con_area div.glossary div.term h6 {
     font-size: 17rem;
@@ -3079,6 +3143,12 @@ body main.seminar_con section.content div.top_link_area a {
     width: 16rem;
     height: 16rem;
     right: -22rem;
+  }
+  body main.seminar_con section.content div.page_link_area div.page_link.left {
+    justify-content: start;
+  }
+  body main.seminar_con section.content div.page_link_area div.page_link.right {
+    justify-content: end;
   }
   body main.seminar_con section.content div.page_link_area div.top_link {
     height: 56px;
@@ -3203,6 +3273,13 @@ body main.seminar_con section.content div.top_link_area a {
   body main.seminar_con section.title .purpose ul {
     margin-top: 14px;
   }
+  body main.seminar_con section.title.betten_title h2 {
+    text-align: left;
+    margin: 60px auto 35px;
+  }
+  body main.seminar_con section.title.betten_title .purpose {
+    margin-top: auto;
+  }
   body main.seminar_con section.sec_ttl {
     width: 100%;
     text-align: center;
@@ -3229,6 +3306,10 @@ body main.seminar_con section.content div.top_link_area a {
   body main.seminar_con section.content div.chapter a, body main.seminar_con section.content div.chapter p {
     font-size: 10rem;
     line-height: 14rem;
+  }
+  body main.seminar_con section.content div.con_area.betten {
+    margin-top: 28px;
+    padding-bottom: 112px;
   }
   body main.seminar_con section.content div.con_area h4 {
     margin: auto auto 28px -3.7333333333vw;
@@ -3281,6 +3362,9 @@ body main.seminar_con section.content div.top_link_area a {
   body main.seminar_con section.content div.con_area p.cap.beshi_end {
     margin: 14px auto 28px;
   }
+  body main.seminar_con section.content div.con_area p.cap.mt14_sp {
+    margin-top: 14px;
+  }
   body main.seminar_con section.content div.con_area p.below_line {
     border-bottom: 1px solid #00CBE2;
     padding-bottom: 84px;
@@ -3297,14 +3381,27 @@ body main.seminar_con section.content div.top_link_area a {
   body main.seminar_con section.content div.con_area p.blue_small.mb7_sp {
     margin-bottom: 7px;
   }
+  body main.seminar_con section.content div.con_area p.blue_small.mb14_sp {
+    margin-bottom: 14px;
+  }
   body main.seminar_con section.content div.con_area p.big_text {
     font-size: 18rem;
   }
   body main.seminar_con section.content div.con_area p.small_text {
     font-size: 14rem;
+    line-height: 21rem;
+  }
+  body main.seminar_con section.content div.con_area p.small_text.grey {
+    color: #333;
+    opacity: 0.6;
   }
   body main.seminar_con section.content div.con_area p.small_text_sp {
     font-size: 14rem;
+    line-height: 21rem;
+  }
+  body main.seminar_con section.content div.con_area p.small_text_sp.grey {
+    color: #333;
+    opacity: 0.6;
   }
   body main.seminar_con section.content div.con_area p.left_sp {
     text-align-last: left;
@@ -5863,6 +5960,9 @@ body main.seminar_con section.content div.top_link_area a {
   }
   body main.seminar_con section.content div.con_area img.mb56_sp {
     margin-bottom: 56px;
+  }
+  body main.seminar_con section.content div.con_area img.mb70_sp {
+    margin-bottom: 70px;
   }
   body main.seminar_con section.content div.con_area div.glossary div.term h6 {
     font-size: 16rem;

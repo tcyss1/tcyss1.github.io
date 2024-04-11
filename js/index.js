@@ -203,6 +203,21 @@ $(function(){
       else if($(this).hasClass("s5_beshi") == true){
         window.open('seminar05/beshi.html',null,'top=100,left=100,width=960')
       }
+      else if($(this).hasClass("betten01") == true){
+        window.open('betten/betten01.html',null,'top=100,left=100,width=960')
+      }
+      else if($(this).hasClass("betten02") == true){
+        window.open('betten/betten02.html',null,'top=100,left=100,width=960')
+      }
+      else if($(this).hasClass("betten03") == true){
+        window.open('betten/betten03.html',null,'top=100,left=100,width=960')
+      }
+      else if($(this).hasClass("betten04") == true){
+        window.open('betten/betten04.html',null,'top=100,left=100,width=960')
+      }
+      else if($(this).hasClass("betten01-2") == true){
+        window.open('../betten/betten01.html',null,'top=100,left=100,width=960')
+      }
       else{
         window.open('beshi.html',null,'top=100,left=100,width=960')
       }
@@ -212,6 +227,21 @@ $(function(){
       }
       else if($(this).hasClass("s5_beshi") == true){
         window.open('seminar05/beshi.html')
+      }
+      else if($(this).hasClass("betten01") == true){
+        window.open('betten/betten01.html')
+      }
+      else if($(this).hasClass("betten02") == true){
+        window.open('betten/betten02.html')
+      }
+      else if($(this).hasClass("betten03") == true){
+        window.open('betten/betten03.html')
+      }
+      else if($(this).hasClass("betten04") == true){
+        window.open('betten/betten04.html')
+      }
+      else if($(this).hasClass("betten01-2") == true){
+        window.open('../betten/betten01.html')
       }
       else{
         window.open('beshi.html')
